@@ -1,0 +1,316 @@
+@font-face {
+    font-family: "Roboto-Light", sans-serif;
+    src: "Roboto-Light.ttf";
+}
+
+
+@font-face {
+    font-family: 'Milkshake';
+    src:url('Milkshake.ttf');
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #c5003c;
+    height: 80px;
+    line-height: 80px;
+    box-shadow: 0 -2px 10px 5px rgba(0,0,0,.15);
+}
+
+.header a {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.menu a:hover , .header a:hover {
+    color: #E7A968;
+    text-decoration: none;
+}
+
+.banner {
+    height: 450px;
+    overflow: hidden;
+    background-color: #f2ebe4;
+    box-shadow: 0 -2px 10px 5px rgba(0,0,0,.15);
+}
+
+.ban img {
+    float: right;
+}
+
+.inner-banner {
+    padding-left: 200px;
+    padding-top: 100px; 
+    color: #c5003c;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.829);
+}
+
+.inner-banner h1 {
+    font-family: 'Roboto-Light';
+    letter-spacing: 1px;
+}
+
+.inner-banner p {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.inner-banner .btn-custom {
+    margin: 30px 0;
+    background-color:  #c5003c;
+    font-weight: bold;
+    color: #f2ebe4;
+    padding: 5px 20px;
+}
+
+.inner-banner .btn-custom:hover {
+    box-shadow: 0 -2px 10px 5px rgba(0,0,0,.15);
+}
+
+#about {
+    text-align: center;
+    height: 200px;
+    padding-top: 150px;
+
+}
+
+.about {
+
+    background-image: url("jb.gif");
+    background-repeat: no-repeat;
+    background-size: 19%;
+    background-position: top;
+    margin-top: 5px;
+    
+    
+}
+
+.about h1 { 
+    color: #c5003c;
+    font-family: 'Roboto-Light';
+}
+
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #c5003c;
+}
+
+.about h2 {
+    color: #E7A968;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Roboto-Light';
+}
+
+.about h3 {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 15px;
+}
+.about .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row {
+    justify-content: space-around;
+}
+.studies h3, .experience-item {
+    color: #c5003c;
+}
+.studies {
+    border-bottom: 3px solid #c5003c;
+}
+
+.experience {
+    border-left: 3px solid #c5003c;
+    height: 530px;
+    font-size: 98%;
+}
+
+.experience ul {
+    padding-left: 15px;
+    padding-bottom: 40px;
+}
+
+.experience-item{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.experience-details li {
+    padding-bottom: 7px;
+}
+.hobbies ul {
+    list-style-type: circle;
+}
+
+.hobbies {
+    padding-top: 20px;
+}
+
+.projects .container {
+    padding: 30px 50px;
+    width: 800px;
+    height: 4tggg-ggg--gggtggggg00px;
+}
+
+.projects {
+    background-color: #f2ebe4;
+    height: 700px;
+    box-shadow: 0 -2px 10px 5px rgba(0,0,0,.15);
+}
+
+#projects {
+    text-align: center;
+    color: #c5003c;
+    padding-top: 20px;
+    font-family: 'Roboto-Light';
+}
+
+.card-inner {
+    display: flex;
+}
+.projects .item-folio {
+    height: 250px;
+    background-color: #c5003c;
+}
+
+.card a {
+    background-color: #c5003c;
+    font-weight: bold;
+    border: none;
+}
+
+.card a:hover {
+    background-color: #c5003c;
+}
+
+.card a:visited, .card a:active {
+    background-color: 0 -2px 10px 5px rgba(0,0,0,.15);
+}
+.items{
+    border:solid;
+    height: 250px;
+    width: 250px;
+}
+
+.footer {
+    background-color: #E7A968;
+    box-shadow: 0 -2px 10px 5px rgba(0,0,0,.15);
+    height: 500px;
+}
+
+#contact {
+    color: #c5003c;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Roboto-Light';
+
+}
+
+.contact-form {
+    width: 500px;
+    display: inline-block;
+    margin-right: 0;
+    padding-top: 30px;
+}
+
+input[type=text] {
+    height: 50px;
+    width: 500px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+input[type=email] {
+    height: 50px;
+    width: 500px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+    resize: vertical;
+}
+
+.contact-form .btn-custom {
+    background-color: #c5003c;
+    padding: 10px 40px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.contact-form .btn-custom:hover {
+    background-color: #c5003c;
+    box-shadow: 0 -2px 10px 5px rgba(0,0,0,.15);
+}
+
+a.fa-github {
+    color: #333;
+    font-size: 50px;
+    padding: 30px;
+}
+
+a.fa-github:hover {
+    color: rgb(31, 30, 30);
+    text-decoration: none;
+}
+
+a.fa-facebook {
+    font-size: 50px;
+    color: #3b5998;
+    padding: 30px;
+}
+
+a.fa-facebook:hover {
+    color: #334d86;
+    text-decoration: none;
+}
+
+a.fa-linkedin {
+    font-size: 50px;
+    color: #4875B4;
+    padding: 30px;
+}
+
+a.fa-linkedin:hover {
+    color: rgb(59, 97, 150);
+    text-decoration: none;
+}
+
+.more-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
